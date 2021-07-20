@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
@@ -20,7 +21,7 @@
                     <img src="images/logo.jpeg" alt="Website logo" width="85rem">
                 </div>
                 <nav>
-                    <ul>
+                    <ul id="MenuItems">
                         <li><a href="">Home</a></li>
                         <li><a href="">Products</a></li>
                         <li><a href="">About</a></li>
@@ -29,7 +30,7 @@
                     </ul>
                 </nav>
                 <img src="images/cart.png" alt="Cart" width="30rem" height="30rem">
-                <img src="images/menu.png" class="menu-icon" alt="Hamburger Menu">
+                <img src="images/menu.png" class="menu-icon" alt="Hamburger Menu" onclick="menutoggle()">
             </div>
             <div class="row">
                 <div class="col-2">
@@ -344,5 +345,10 @@
             <p class="copyright">&#169; 2021 - Ramandeep Singh</p>
         </div>
     </div>
+
+
+
+
+    <script src="js/script.js"></script>
 </body>
 </html>
