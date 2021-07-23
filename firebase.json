@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "suits-e-commerce",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
