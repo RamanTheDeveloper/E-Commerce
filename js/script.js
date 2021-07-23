@@ -38,7 +38,3 @@ SmallImg[4].onclick = function(){
 
 
 
-//Account page toggle for Form
-var LoginForm = document.getElementById("LoginForm");
-var RegForm = document.getElementById("RegForm");
-var Indicator = document.getElementById("Indicator");
